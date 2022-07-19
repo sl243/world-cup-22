@@ -55,3 +55,39 @@ body {
     width: 581px;
     height: 613px;
 }
+
+/* ..........................
+    footer section
+..............................  */
+
+footer {
+    height: 444px;
+    background: #161616;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 130px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1320px;
+    height: 0px;
+}
+
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.footer-menu ul li a {
+    padding: 30px;
+    text-decoration: none;
+    color: #B9B9B9;
+}
