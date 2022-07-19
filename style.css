@@ -1,0 +1,57 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Montserrat&family=Open+Sans&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* common and utility  */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header information  */
+.header-details {
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+}
+
+.article-info {
+    display: flex;
+    padding-left: 140px;
+
+}
+
+.header-info {
+    width: 50%;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.pragraph {
+    color: #FFFFFF;
+}
+
+.button {
+    background: #DD0000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.header-image {
+    width: 50%;
+    padding-top: 33px;
+}
+
+.header-image img {
+    width: 581px;
+    height: 613px;
+}
