@@ -8,7 +8,7 @@ body {
 }
 
 /* header information  */
-.header-details {
+.container {
     height: 646px;
     background: #161616;
     border-radius: 30px;
@@ -56,6 +56,81 @@ body {
     height: 613px;
 }
 
+/* main section start  */
+
+.main-container {
+    margin-top: 130px;
+    padding-left: 80px;
+}
+
+.main-section {
+    display: flex;
+}
+
+.main-side-bar {
+    width: 260px;
+    height: 260px;
+    background: #161616;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+.site-button {
+    width: 252px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.button-color {
+    background: #DD0000;
+}
+
+.site-button a {
+    text-decoration: none;
+    color: #161616;
+    font-size: 20px;
+}
+
+/* right match section  */
+
+.right-side-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.right-side {
+    margin-left: 20px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.transfer-button {
+    color: #161616;
+    font-size: 16px;
+    margin-top: 24px;
+    border-radius: 5px;
+    width: 87px;
+    height: 34px;
+}
+
+.paragraph {
+    color: #161616;
+    font-size: 18px;
+}
+
+.blogs-info {
+    padding-left: 20px;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+
 /* ..........................
     footer section
 ..............................  */
@@ -91,3 +166,7 @@ hr {
     text-decoration: none;
     color: #B9B9B9;
 }
+
+/* ................................
+    Mobile Device Responsive  
+    ..................................*/
