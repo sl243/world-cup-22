@@ -178,6 +178,44 @@ hr {
     color: #B9B9B9;
 }
 
+/* ..................................
+    upcoming match css sheet...........  */
+
+#match-info {
+    width: 312px;
+    height: 242px;
+}
+
+.thumbnail-image {
+    display: flex;
+}
+
+.thumbnail-container {
+    padding: 53px 30px;
+}
+
+.diffrent {
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.thumbnail-image img {
+    width: 252px;
+    height: 56.18px;
+}
+
+.match-title {
+    color: #161616;
+    font-size: 20px;
+}
+
+.match-date {
+    color: #4D4D4D;
+    font-size: 16px;
+
+}
+
 /* ................................
     Mobile Device Responsive  
     ..................................*/
@@ -231,5 +269,11 @@ hr {
 
     .main-side-bar {
         background-color: #FFFFFF;
+    }
+}
+
+@media only screen and (min-width: 678px) and (max-width: 992px) {
+    .right-side-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
