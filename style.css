@@ -9,19 +9,17 @@ body {
 
 /* header information  */
 .container {
+    width: 100%;
     height: 646px;
     background: #161616;
     border-radius: 30px;
+
 }
 
-.article-info {
+.header-details {
     display: flex;
     padding-left: 140px;
 
-}
-
-.header-info {
-    width: 50%;
 }
 
 .header-title {
@@ -32,6 +30,10 @@ body {
 
 .pragraph {
     color: #FFFFFF;
+}
+
+.pragraph-1 {
+    display: none;
 }
 
 .button {
@@ -47,8 +49,8 @@ body {
 }
 
 .header-image {
-    width: 50%;
     padding-top: 33px;
+    padding-left: 100px;
 }
 
 .header-image img {
@@ -60,7 +62,8 @@ body {
 
 .main-container {
     margin-top: 130px;
-    padding-left: 80px;
+    padding-left: 50px;
+
 }
 
 .main-section {
@@ -106,6 +109,12 @@ body {
     margin-left: 20px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+}
+
+.thumbnail img {
+    width: 337px;
+    height: 200.24px;
+    border-radius: 11.4423px 11.4423px 0px 0px;
 }
 
 .transfer-button {
@@ -155,13 +164,14 @@ hr {
 }
 
 
-.footer-menu ul {
+.footer-menu {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 50px;
 }
 
-.footer-menu ul li a {
+.footer-menu a {
     padding: 30px;
     text-decoration: none;
     color: #B9B9B9;
@@ -170,3 +180,55 @@ hr {
 /* ................................
     Mobile Device Responsive  
     ..................................*/
+
+@media only screen and (max-width: 678px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        height: 100%
+    }
+
+    .header-title {
+        font-size: 25px;
+    }
+
+    .pragraph {
+        display: none;
+    }
+
+    .pragraph-1 {
+        display: contents;
+    }
+
+    .header-image img {
+        width: 100%;
+    }
+
+    .header-details,
+    .right-side-container,
+    .main-section,
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    /* .header-details {
+        padding-left: 55px;
+    } */
+
+    footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-menu {
+        text-align: center;
+    }
+
+    .main-side-bar {
+        background-color: #FFFFFF;
+    }
+}
