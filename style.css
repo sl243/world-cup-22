@@ -207,11 +207,13 @@ hr {
 .match-title {
     color: #161616;
     font-size: 20px;
+    text-align: center;
 }
 
 .match-date {
     color: #4D4D4D;
     font-size: 16px;
+    text-align: center;
 
 }
 
