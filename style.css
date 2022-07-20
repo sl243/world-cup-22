@@ -239,6 +239,46 @@ hr {
 }
 
 /* ................................
+    All group Country Name
+    ................................  */
+
+.group-country-name {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.all-group {
+    margin-left: 20px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    width: 450px;
+    height: 370px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table-title {
+    text-align: center;
+}
+
+td {
+    border: 1px solid #E8E8E8;
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+td img {
+    width: 80px;
+    height: 50px;
+    padding-top: 5px;
+}
+
+/* ................................
     Mobile Device Responsive  
     ..................................*/
 
