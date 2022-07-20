@@ -49,13 +49,14 @@ body {
 }
 
 .header-image {
-    padding-top: 33px;
+
     padding-left: 100px;
 }
 
 .header-image img {
-    width: 581px;
-    height: 613px;
+    width: 775px;
+    height: 646px;
+    border-radius: 20px;
 }
 
 /* main section start  */
